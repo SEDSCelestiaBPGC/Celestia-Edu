@@ -1,7 +1,5 @@
-/node_modules/
-/public/build/
-
-*lock*.yaml
-*lock*.yml
-
 .DS_Store
+node_modules
+/.svelte
+/build
+/functions
