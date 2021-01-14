@@ -1,0 +1,18 @@
+[
+    {
+        "short": "QISKit",
+        "time": "Winter 2021",
+        "page": "qis",
+        "long": "Quantum Information & Security (Kit)",
+        "image": "https://bpgc-cte.s3.ap-south-1.amazonaws.com/coverImage-qis3-1610508686415.png",
+        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus harum explicabo perferendis consectetur dolor repellat inventore quibusdam sint quo. Temporibus."
+    },
+    {
+        "short": "TOR",
+        "time": "Winter 2021",
+        "page": "tor",
+        "long": "Introduction to Theory of Relativity",
+        "image": "https://bpgc-cte.s3.ap-south-1.amazonaws.com/coverImage-tor3-1610508935146.png",
+        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus harum explicabo perferendis consectetur dolor repellat inventore quibusdam sint quo. Temporibus."
+    }
+]
