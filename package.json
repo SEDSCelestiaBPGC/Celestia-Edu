@@ -3,8 +3,8 @@
 	"version": "1.0.0",
 	"scripts": {
 		"dev": "svelte-kit dev",
-		"build": "svelte-kit build && svelte-kit start",
-		"start": "svelte-kit start"
+		"build": "svelte-kit build && npm run start",
+		"start": "svelte-kit start --port 80"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "next",
