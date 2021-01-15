@@ -11,3 +11,8 @@ a,a:visited,a:hover {
     text-decoration: none;
     color: unset;
 }
+
+svg{
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}

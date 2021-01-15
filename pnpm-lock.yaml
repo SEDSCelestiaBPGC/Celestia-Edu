@@ -1,8 +1,9 @@
 dependencies:
   gh-pages: 3.1.0
 devDependencies:
+  '@sveltejs/adapter-node': 1.0.0-next.0
   '@sveltejs/adapter-static': 1.0.0-next.1
-  '@sveltejs/kit': 1.0.0-next.24
+  '@sveltejs/kit': 1.0.0-next.25
   '@sveltejs/snowpack-config': 1.0.0-next.1_sass@1.32.4+svelte@3.31.2
   sass: 1.32.4
   svelte: 3.31.2
@@ -39,11 +40,23 @@ packages:
       svelte: ^3.21.0
     resolution:
       integrity: sha512-xjFkP/nU3SYdImFaVh2ThT5f5GJZy5WIYjss7gLB8vxjmUi6ZkB+/vgtDxboOLmKXmIU+4g88L/j5R/ZyBOgaw==
+  /@sveltejs/adapter-node/1.0.0-next.0:
+    dependencies:
+      '@sveltejs/app-utils': 1.0.0-next.0
+    dev: true
+    resolution:
+      integrity: sha512-NNdBGSARtrvLWLIUem/RKWYJ7cKq4xn0nxSASKogLSYL5SOrb6AgHunWQXv8VqDZ0jT7xQCORgASn006/HmaYQ==
   /@sveltejs/adapter-static/1.0.0-next.1:
     dev: true
     resolution:
       integrity: sha512-rjqlDEO6r2gjGThmx80ry1v7/ctApJbsst1ET5OUBpgf/Cz42DZAbAQs6j1LIljaSMwYN6r5JA1y2rOVCixiOg==
-  /@sveltejs/kit/1.0.0-next.24:
+  /@sveltejs/app-utils/1.0.0-next.0:
+    dependencies:
+      mime: 2.4.7
+    dev: true
+    resolution:
+      integrity: sha512-4fCuD+aLrq/iFVJWosIv8oi43tv4o7bGZVyNHMBamdIaVTcydRaPjxQCTM8OQPRVftHyrTIIvT3uH03kAxHZ0Q==
+  /@sveltejs/kit/1.0.0-next.25:
     dependencies:
       cheap-watch: 1.0.3
       http-proxy: 1.18.1
@@ -57,7 +70,7 @@ packages:
     dev: true
     hasBin: true
     resolution:
-      integrity: sha512-aQWFEzfeVK68bT0kGhzGJkmj4ZsO2MfRK9LN9QHelNaP1claRbKy3R/mvGRuW2GZ3bt0dMTsQliIgzstEczAYA==
+      integrity: sha512-qSP7bBB7pR8/+Rhmiv5ojo+zBnlHiB3/Dsmkbje6Xm31sO7WythJEug9vJSfy71S0W8Ie57ZS09lc0ThDg1tRg==
   /@sveltejs/snowpack-config/1.0.0-next.1_sass@1.32.4+svelte@3.31.2:
     dependencies:
       '@snowpack/plugin-svelte': 3.5.1_sass@1.32.4+svelte@3.31.2
@@ -516,6 +529,13 @@ packages:
     dev: true
     resolution:
       integrity: sha512-abv/qOcuPfk3URPfDzmZU1LKmuw8kT+0nIHvKrKgFrwifol/doWcdA4ZqsWQ8ENrFKkd67Mfpo/LovbIUsbt3w==
+  /mime/2.4.7:
+    dev: true
+    engines:
+      node: '>=4.0.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-dhNd1uA2u397uQk3Nv5LM4lm93WYDUXFn3Fu291FJerns4jyTudqhIWe4W04YLy7Uk1tm1Ore04NpjRvQp/NPA==
   /min-indent/1.0.1:
     dev: true
     engines:
@@ -961,6 +981,7 @@ packages:
     resolution:
       integrity: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 specifiers:
+  '@sveltejs/adapter-node': next
   '@sveltejs/adapter-static': next
   '@sveltejs/kit': next
   '@sveltejs/snowpack-config': next
