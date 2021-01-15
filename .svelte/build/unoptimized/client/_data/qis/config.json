@@ -1,0 +1,12 @@
+{
+    "faq": [
+        {
+            "q": "What makes Quantum Computers differnt from Classical Computers?",
+            "a": "Both Quantum and Classical Computers obey the laws of quantum mechanics but are different in a way that in a classical computer"
+        },
+        {
+            "q": "Do I need Quantum Mechanics I and/or II for this course?",
+            "a": "This course is like Blade Runner 2049. You will understand it weather or not you see the previous movie. But some context will definately give a deeper understanding. So we leave it as optional, Hail Ryan Gosling"
+        }
+    ]
+}
