@@ -8,16 +8,12 @@
 		"deploy": "npm run build && npm run start"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-static": "next",
-		"@sveltejs/adapter-node": "next",
+		"@sveltejs/adapter-netlify": "next",
 		"@sveltejs/kit": "next",
 		"@sveltejs/snowpack-config": "next",
 		"sass": "^1.0.0",
 		"svelte": "^3.29.0",
 		"svelte-preprocess": "^4.0.0"
-	},
-	"dependencies": {
-		"gh-pages": "^3.1.0"
 	},
 	"engines": {
 		"node": "15.0.1"
