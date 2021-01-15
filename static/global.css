@@ -16,3 +16,15 @@ svg{
     stroke-linecap: round;
     stroke-linejoin: round;
 }
+
+article{
+    margin: 10px;
+    padding: 10px;
+    background: #fff;
+}
+
+@media (max-width:768px){
+    article{
+        width: 100% !important;
+    }
+}

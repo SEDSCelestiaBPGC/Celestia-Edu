@@ -1,20 +1,26 @@
 <script>
     export let faq;
 
-    let state = 1;
+    let state = 0;
 
     import { fly } from "svelte/transition";
 </script>
 
 <style type="text/scss">
     .collapse {
-        padding: 10px;
-        background: #fff;
+        width: calc(75% - 30px);
         .head {
             display: flex;
+            padding-top: 10px;
             justify-content: space-between;
             cursor: pointer;
         }
+    }
+    svg {
+        height: 32px;
+        width: 32px;
+        padding: 10px 10px 0 0;
+        fill: none;
     }
 </style>
 
@@ -24,24 +30,21 @@
         <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 32 32"
-            width="32"
-            height="32"
-            fill="none"
             stroke="#222a"
             stroke-width="2">
             <path
-                d={`M30 ${state ? '12' : '20'} L16 ${state ? '24 2 12' : '8 2 20'}`} />
+                d={`M30 ${!state ? '12' : '20'} L16 ${!state ? '24 2 12' : '8 2 20'}`} />
         </svg>
     </div>
-    <hr />
     {#if state}
-        <article transition:fly>
+        <div transition:fly>
+            <hr />
             {#each faq as q}
                 <div>
                     <h4>{q.q}</h4>
-                    <p>{q.a}</p>
+                    <div>{q.a}</div>
                 </div>
             {/each}
-        </article>
+        </div>
     {/if}
 </article>

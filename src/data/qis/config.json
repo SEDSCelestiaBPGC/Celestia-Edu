@@ -1,4 +1,20 @@
 {
+    "handout": "https://drive.google.com/file/d/1z2pYeswBhLj4YN-iZm_1eZZfgQq8b2CJ/view",
+    "info": {
+        "about": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab debitis quis dolor sunt animi, fuga autem similique harum rerum obcaecati.",
+        "format": "The course will be taken online with multiple instructors, specialising in their respectibe fields.",
+        "instructors": [
+            "Ayushi Dubal",
+            "Manav Seksaria"
+        ],
+        "mentors": [
+            "Abhay",
+            "Yashee"
+        ],
+        "prereqs": [
+            "CBSE Class 12 or Equivalent"
+        ]
+    },
     "faq": [
         {
             "q": "What makes Quantum Computers differnt from Classical Computers?",
