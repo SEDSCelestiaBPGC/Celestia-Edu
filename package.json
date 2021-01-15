@@ -3,8 +3,8 @@
 	"version": "1.0.0",
 	"scripts": {
 		"dev": "svelte-kit dev",
-		"build": "svelte-kit build",
-		"start": "svelte-kit start",
+		"start": "svelte-kit build",
+		"build": "svelte-kit start",
 		"deploy": "npm run build && npm run start"
 	},
 	"devDependencies": {
