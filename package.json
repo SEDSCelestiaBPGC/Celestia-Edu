@@ -4,7 +4,7 @@
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build && npm run start",
-		"start": "svelte-kit start --port process.env.PORT || 80"
+		"start": "svelte-kit start --port"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "next",
