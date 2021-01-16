@@ -7,9 +7,9 @@
 		"start": "svelte-kit start --port"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-static": "next",
 		"@sveltejs/adapter-netlify": "next",
 		"@sveltejs/adapter-node": "next",
+		"@sveltejs/adapter-static": "next",
 		"@sveltejs/kit": "next",
 		"@sveltejs/snowpack-config": "next",
 		"sass": "^1.0.0",
@@ -18,5 +18,8 @@
 	},
 	"engines": {
 		"node": "15.0.1"
+	},
+	"dependencies": {
+		"express": "^4.17.1"
 	}
 }
