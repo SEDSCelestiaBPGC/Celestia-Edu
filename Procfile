@@ -1,1 +1,1 @@
-web: npx svelte-kit start
+web: npx svelte-kit start --port 0795
