@@ -1,1 +1,1 @@
-web: npm run start
+web: npx svelte-kit start
