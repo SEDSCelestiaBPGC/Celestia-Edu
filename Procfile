@@ -1,1 +1,0 @@
-web: npx svelte-kit start

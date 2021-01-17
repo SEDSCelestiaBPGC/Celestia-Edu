@@ -18,5 +18,5 @@
 
 <article>
     <h3>{name}</h3>
-    <a href={url}> <img src="/assets/{type}.png" alt="" /> </a>
+    <a href={url}> <img src="/assets/{type.toLowerCase()}.png" alt="" /> </a>
 </article>
