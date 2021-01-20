@@ -1,8 +1,8 @@
 {
     "handout": "https://drive.google.com/file/d/1z2pYeswBhLj4YN-iZm_1eZZfgQq8b2CJ/view",
     "info": {
-        "about": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab debitis quis dolor sunt animi, fuga autem similique harum rerum obcaecati.",
-        "format": "The course will be taken online with multiple instructors, specialising in their respectibe fields.",
+        "about": "An introductory course to quantum information & its security, with emphasis on the basics of quantum computing and Qiskit, and its applications in information security.",
+        "format": "The course will be taken online with multiple instructors, specialising in their respective fields.",
         "instructors": [
             "Ayushi Dubal",
             "Manav Seksaria"

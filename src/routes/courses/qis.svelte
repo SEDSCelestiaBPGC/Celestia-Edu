@@ -10,7 +10,7 @@
     section {
         padding: 10px;
     }
-</style>
+</style>    
 
 <!-- <Index /> -->
 <div>
