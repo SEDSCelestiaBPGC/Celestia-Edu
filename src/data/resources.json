@@ -1,0 +1,30 @@
+[
+    {
+        "type": "Cosmo & Astro",
+        "data": [
+            {
+                "id": "glens",
+                "name": "Gravitational Lensing",
+                "type": "iframe",
+                "at": "/tor/lens.html"
+            }
+        ]
+    },
+    {
+        "type": "Quantum",
+        "data": [
+            {
+                "id": "bb84",
+                "name": "BB84",
+                "type": "svelte",
+                "at": "/qtm/bb84"
+            },
+            {
+                "id": "bb92",
+                "name": "BB92",
+                "type": "svelte",
+                "at": "/qtm/bb92"
+            }
+        ]
+    }
+]

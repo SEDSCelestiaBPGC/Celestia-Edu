@@ -12,6 +12,7 @@
             display: flex;
         }
         a {
+            color: unset;
             width: 75px;
             text-align: center;
             margin: 10px;
@@ -30,6 +31,7 @@
 <nav>
     <div class="part">
         <a href="/">Home</a>
-        <a href="http://sedscelestia.org">Celestia</a>
+        <a href="/content">Resources</a>
+        <a target="_blank" href="http://sedscelestia.org">Celestia</a>
     </div>
 </nav>

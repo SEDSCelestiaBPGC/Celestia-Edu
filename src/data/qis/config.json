@@ -8,8 +8,8 @@
             "Manav Seksaria"
         ],
         "mentors": [
-            "Abhay",
-            "Yashee"
+            "Abhay Kamble",
+            "Yashee Sinha"
         ],
         "prereqs": [
             "CBSE Class 12 or Equivalent"
@@ -24,5 +24,11 @@
             "q": "Do I need Quantum Mechanics I and/or II for this course?",
             "a": "This course is like Blade Runner 2049. You will understand it weather or not you see the previous movie. But some context will definately give a deeper understanding. So we leave it as optional, Hail Ryan Gosling"
         }
-    ]
+    ],
+    "docs": {
+        "w1": {
+            "l2": "https://drive.google.com/file/d/1iksnCIPFn8ZrMyWi4ZRDOardhuNMpSfZ/view",
+            "l3": "https://drive.google.com/file/d/1asd7oB4ACNeMX467ubiTuw54X8YhUPvh/view"
+        }
+    }
 }

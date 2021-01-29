@@ -5,6 +5,10 @@
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
 		"test": "npm run build && npm run start",
+		"dockerise": "docker build -t educelestia . && docker build -t registry.heroku.com/educelestia/web .",
+		"release": "docker push registry.heroku.com/educelestia/web && heroku container:release web -a educelestia",
+		"create": "npm run build && npm run dockerise",
+		"direct": "npm run create && npm run release",
 		"start": "svelte-kit start"
 	},
 	"devDependencies": {

@@ -17,8 +17,16 @@
     },
     "faq": [
         {
-            "q": "What we deal with complex mathematical models?",
+            "q": "Would we deal with complex mathematical models?",
             "a": "No"
         }
-    ]
+    ],
+    "docs": {
+        "w1": {
+            "l3": "https://drive.google.com/file/d/1OeRtzZ8vyAp-mAW5YIpVZRDbfwpq50r3/view"
+        },
+        "w2": {
+            "l3": "https://drive.google.com/file/d/1OkY6kGX1kTflZGUbt3w10TQchd3eFx8p/view"
+        }
+    }
 }
