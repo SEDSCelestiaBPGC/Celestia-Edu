@@ -33,6 +33,11 @@ article{
     font-weight: 600;
 }
 
+.toc-h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
 @media (max-width:768px){
     article{
         width: 100% !important;
