@@ -11,9 +11,9 @@
 		"start": "svelte-kit start"
 	},
 	"devDependencies": {
+		"@sveltejs/adapter-node": "next",
+		"vite": "^2.1.0",
 		"@sveltejs/kit": "next",
-		"@sveltejs/snowpack-config": "next",
-		"rollup": "^2.40.0",
 		"sass": "1.26.8",
 		"svelte": "3.32.0",
 		"svelte-preprocess": "4.6.1"

@@ -17,13 +17,25 @@
                 "id": "bb84",
                 "name": "BB84",
                 "type": "svelte",
-                "at": "/qtm/bb84"
+                "at": "/qis/bb84"
             },
             {
                 "id": "bb92",
                 "name": "BB92",
                 "type": "svelte",
-                "at": "/qtm/bb92"
+                "at": "/qis/bb92"
+            },
+            {
+                "id": "ciphers",
+                "name": "Ciphers",
+                "type": "iframe",
+                "at": "/qis/ciphers.html"
+            },
+            {
+                "id": "enigma",
+                "name": "German Enigma",
+                "type": "iframe",
+                "at": "/qis/enigma.html"
             }
         ]
     }

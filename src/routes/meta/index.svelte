@@ -1,13 +1,8 @@
 <section>
-    <article>Last Updated 28th Feb (1.1.1)</article>
+    <article>Last Updated 28th Feb (1.2.1)</article>
     <article>Checkpoint: 16:32 PM IST</article>
     <article>
-        <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 32 32"
-            width="24"
-            height="24"
-        >
+        <svg viewBox="0 0 32 32" width="24" height="24">
             <circle cx="16" cy="16" r="14" />
             <g transform="scale(0.5) translate(15,15)">
                 <path stroke-width="4" d="M2 20 L12 28 30 4" />
@@ -17,6 +12,7 @@
             All systems nominal
         </div>
     </article>
+    <article>Last Addition: Ciphers & Enigma</article>
 </section>
 
 <style>

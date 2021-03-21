@@ -2,6 +2,10 @@
     export let obj;
 </script>
 
+<section>
+    <iframe src={"/examples" + obj.at} title={obj.name} frameborder="0" />
+</section>
+
 <style type="text/scss">
     section {
         width: 100vw;
@@ -16,13 +20,9 @@
             display: none;
         }
         iframe {
-            width: 90%;
+            width: 95%;
             height: 90%;
             border-radius: 20px;
         }
     }
 </style>
-
-<section>
-    <iframe src={'/examples' + obj.at} title={obj.name} frameborder="0" />
-</section>
