@@ -3,7 +3,7 @@
 	"version": "1.1.1",
 	"scripts": {
 		"dev": "svelte-kit dev",
-		"build": "svelte-kit build",
+		"build": "rm -rf ./build && svelte-kit build",
 		"test": "npm run build && npm run start",
 		"dockerise": "docker build -t educelestia . && docker build -t registry.heroku.com/educelestia/web .",
 		"release": "docker push registry.heroku.com/educelestia/web && heroku container:release web -a educelestia",
@@ -11,6 +11,7 @@
 		"start": "svelte-kit start"
 	},
 	"devDependencies": {
+		"@sveltejs/adapter-static": "next",
 		"@sveltejs/adapter-node": "next",
 		"vite": "^2.1.0",
 		"@sveltejs/kit": "next",

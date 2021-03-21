@@ -1,9 +1,9 @@
 <script>
-    import Nav from "$components/nav.svelte";
+    import Nav from "$lib/components/nav.svelte";
 </script>
-
-<style>
-</style>
 
 <Nav />
 <slot />
+
+<style>
+</style>

@@ -1,8 +1,8 @@
 <script>
-    import config from "$data/qis/config.json";
-    import FAQ from "$shared/faq.svelte";
-    import InfoBox from "$shared/infobox.svelte";
-    import Document from "$components/document.svelte";
+    import config from "$lib/data/qis/config.json";
+    import FAQ from "$lib/shared/faq.svelte";
+    import InfoBox from "$lib/shared/infobox.svelte";
+    import Document from "$lib/components/document.svelte";
 </script>
 
 <div>

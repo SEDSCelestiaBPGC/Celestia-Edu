@@ -12,6 +12,15 @@
     let list = indexer(doc) || [];
 </script>
 
+<ul>
+    <div style="font-weight:600;">Table of Contents</div>
+    {#each list as li}
+        <a href="#{li.id}">
+            <li>{li.txt}</li>
+        </a>
+    {/each}
+</ul>
+
 <style type="text/scss">
     ul {
         background: #fff;
@@ -25,12 +34,3 @@
         }
     }
 </style>
-
-<ul>
-    <div style="font-weight:600;">Table of Contents</div>
-    {#each list as li}
-        <a href="#{li.id}">
-            <li>{li.txt}</li>
-        </a>
-    {/each}
-</ul>

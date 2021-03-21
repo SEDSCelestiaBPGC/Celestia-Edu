@@ -23,7 +23,7 @@ svg{
     stroke-linejoin: round;
 }
 
-article{
+article, details{
     margin: 10px;
     padding: 10px;
     background: #fff;

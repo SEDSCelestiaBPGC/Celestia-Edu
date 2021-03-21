@@ -1,6 +1,6 @@
 <section>
-    <article>Last Updated 28th Feb (1.2.1)</article>
-    <article>Checkpoint: 16:32 PM IST</article>
+    <article>Last Updated 21st Mar (1.2.1)</article>
+    <article>Checkpoint: 13:42 PM IST</article>
     <article>
         <svg viewBox="0 0 32 32" width="24" height="24">
             <circle cx="16" cy="16" r="14" />
@@ -12,7 +12,7 @@
             All systems nominal
         </div>
     </article>
-    <article>Last Addition: Ciphers & Enigma</article>
+    <article>Update Svelte, Last Additions: Ciphers & Enigma</article>
 </section>
 
 <style>

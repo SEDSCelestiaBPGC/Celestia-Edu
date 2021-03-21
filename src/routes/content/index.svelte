@@ -1,7 +1,7 @@
 <script>
-    import Nav from "$components/nav.svelte";
-    import rss from "$data/resources.json";
-    import IFrame from "$components/iframe.svelte";
+    import Nav from "$lib/components/nav.svelte";
+    import rss from "$lib/data/resources.json";
+    import IFrame from "$lib/components/iframe.svelte";
 
     let ifr = 0,
         temp;

@@ -1,8 +1,26 @@
 <script>
-	import Nav from "$components/nav.svelte";
-	import crs from "$data/courses.json";
-	import Footer from "$components/footer.svelte";
+	import Nav from "$lib/components/nav.svelte";
+	import crs from "$lib/data/courses.json";
+	import Footer from "$lib/components/footer.svelte";
 </script>
+
+<Nav />
+<section>
+	{#each crs as cr}
+		<a href="/courses/{cr.page}" style="color: unset;">
+			<div class="course">
+				<img src={cr.image} alt="" />
+				<div>
+					<div style="font-weight:600">{cr.long}</div>
+					<div>{cr.short} ({cr.time})</div>
+					<p>{cr.about}</p>
+				</div>
+			</div>
+		</a>
+	{/each}
+</section>
+
+<Footer />
 
 <style type="text/scss">
 	section {
@@ -34,21 +52,3 @@
 		}
 	}
 </style>
-
-<Nav />
-<section>
-	{#each crs as cr}
-		<a href="/courses/{cr.page}" style="color: unset;">
-			<div class="course">
-				<img src={cr.image} alt="" />
-				<div>
-					<div style="font-weight:600">{cr.long}</div>
-					<div>{cr.short} ({cr.time})</div>
-					<p>{cr.about}</p>
-				</div>
-			</div>
-		</a>
-	{/each}
-</section>
-
-<Footer />
