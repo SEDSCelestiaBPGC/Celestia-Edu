@@ -16,7 +16,7 @@
 		"vite": "^2.1.0",
 		"@sveltejs/kit": "next",
 		"sass": "1.26.8",
-		"svelte": "3.32.0",
+		"svelte": "3.35.0",
 		"svelte-preprocess": "4.6.1"
 	},
 	"type": "module"

@@ -8,11 +8,15 @@
                 <path stroke-width="4" d="M2 20 L12 28 30 4" />
             </g>
         </svg>
-        <div style="position:relative;top:3px;left:2px;">
+        <div style="position:relative;top:3px;left:3px;">
             All systems nominal
         </div>
     </article>
-    <article>Update Svelte, Last Additions: Ciphers & Enigma</article>
+    <article>
+        <h5>Latest Changes:</h5>
+        Update Svelte<br />
+        Last Additions: Ciphers & Enigma
+    </article>
 </section>
 
 <style>
