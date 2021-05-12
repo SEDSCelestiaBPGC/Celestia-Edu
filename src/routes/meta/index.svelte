@@ -23,7 +23,7 @@
 
 <section>
   <article>Last Updated 13th May (1.2.0)</article>
-  <article>Checkpoint: 02:56 AM IST</article>
+  <article>Checkpoint: 03:05 AM IST</article>
   <article>
     <svg viewBox="0 0 32 32" width="24" height="24">
       <circle cx="16" cy="16" r="14" />

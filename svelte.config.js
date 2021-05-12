@@ -13,7 +13,7 @@ const config = {
         } ),
         target: 'body',
         paths: {
-            base: '/docs/',
+            base: '/SEDS-Celestia-Courses/',
         },
     }
 };
