@@ -41,10 +41,28 @@
             ]
         },
         {
-            "desc": "Qubits and their states, and working with them using quantum gates",
+            "desc": "Quantum Algorithms",
             "slides": [
-                "https://drive.google.com/file/d/1WIDFUleCptI8VGMa4LMXlU5wL6x5oTbh/view",
-                "https://drive.google.com/file/d/13r3aN91tSg8xNmVyqtr_Tq_QqfBPUXAt/view"
+                "https://drive.google.com/file/d/1VyEMKFXawxFA-RJjrRTFIWESUruLHJyD/view",
+                "https://drive.google.com/file/d/1IfB00Aexho_mNaQDU6R7EmJ0K8_tW-m-/view"
+            ]
+        },
+        {
+            "desc": "Finishing up with Algorithms and end of Part 1",
+            "slides": [
+                "https://drive.google.com/file/d/10q_PKqU-QclBSWNMzfiaPC87mQcaddRP/view"
+            ]
+        },
+        {
+            "desc": "Introduction to Security and Classical Cryptography",
+            "slides": [
+                "https://drive.google.com/file/d/1GUDQeBVKEE3obte3SMFuF_LNojh9POGZ/view"
+            ]
+        },
+        {
+            "desc": "Quantum Cryptography",
+            "slides": [
+                "https://drive.google.com/file/d/1puFxaroblS--zdj9bBCBdduMDQ1zNmkZ/view"
             ]
         }
     ]

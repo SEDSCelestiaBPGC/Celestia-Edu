@@ -1,6 +1,6 @@
 {
 	"name": "celestia-courses",
-	"version": "1.1.1",
+	"version": "1.2.0",
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "rm -rf ./build && svelte-kit build",

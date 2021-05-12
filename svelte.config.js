@@ -12,10 +12,9 @@ const config = {
             fallback: null
         } ),
         target: 'body',
-        // paths: {
-        //     base: '/',
-        //     assets: '/assets/'
-        // },
+        paths: {
+            base: '/docs/',
+        },
     }
 };
 
