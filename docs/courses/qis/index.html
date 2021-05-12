@@ -10,37 +10,44 @@
 	<link rel="stylesheet" href="/global.css">
 	
 
+		
 
-
-<link rel="modulepreload" href="/./_app/start-f5a87a9f.js">
-			<link rel="modulepreload" href="/./_app/chunks/index-4575880b.js">
-			<link rel="modulepreload" href="/./_app/pages/courses/$layout.svelte-a1a75a76.js">
-			<link rel="modulepreload" href="/./_app/chunks/nav-701373c5.js">
-			<link rel="modulepreload" href="/./_app/pages/courses/qis.svelte-1767c14c.js">
-			<link rel="modulepreload" href="/./_app/chunks/document-7fff58a2.js">
-			<link rel="stylesheet" href="/./_app/assets/start-a8cd1609.css">
-			<link rel="stylesheet" href="/./_app/assets/nav-f328ed8e.css">
-			<link rel="stylesheet" href="/./_app/assets/pages/courses/qis.svelte-26349ac0.css">
-			<link rel="stylesheet" href="/./_app/assets/document-4575ef83.css">
-
+		<link rel="modulepreload" href="/./_app/start-ff63cc36.js">
+		<link rel="modulepreload" href="/./_app/chunks/vendor-7cade0e7.js">
+		<link rel="modulepreload" href="/./_app/layout.svelte-40935a18.js">
+		<link rel="modulepreload" href="/./_app/pages/courses/__layout.svelte-0afa936f.js">
+		<link rel="modulepreload" href="/./_app/chunks/nav-d964a813.js">
+		<link rel="modulepreload" href="/./_app/pages/courses/qis.svelte-42b1541e.js">
+		<link rel="modulepreload" href="/./_app/chunks/document-3cc9b3f6.js">
+		<link rel="stylesheet" href="/./_app/assets/start-a8cd1609.css">
+		<link rel="stylesheet" href="/./_app/assets/nav-f328ed8e.css">
+		<link rel="stylesheet" href="/./_app/assets/pages/courses/qis.svelte-26349ac0.css">
+		<link rel="stylesheet" href="/./_app/assets/document-4575ef83.css">
 
 		<script type="module">
-			import { start } from "/./_app/start-f5a87a9f.js";
+			import { start } from "/./_app/start-ff63cc36.js";
 			start({
 				target: document.querySelector("body"),
 				paths: {"base":"","assets":"/."},
-				status: 200,
-				error: null,
-				session: void 0,
-				nodes: [
-					import("/./_app/pages/courses/$layout.svelte-a1a75a76.js"),
-					import("/./_app/pages/courses/qis.svelte-1767c14c.js")
-				],
-				page: {
-					host: location.host,
-					path: "/courses/qis",
-					query: new URLSearchParams(""),
-					params: {}
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/./_app/layout.svelte-40935a18.js"),
+						import("/./_app/pages/courses/__layout.svelte-0afa936f.js"),
+						import("/./_app/pages/courses/qis.svelte-42b1541e.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "/courses/qis",
+						query: new URLSearchParams(""),
+						params: {}
+					}
 				}
 			});
 		</script>
@@ -93,12 +100,20 @@
     <section class="svelte-tog83g"><h2 class="toc-h2">Week 1</h2>
             <article>We will introduce the course with not much heavy material, just enough to give students an estimate of what is coming and what the course would prepare them for</article>
             <article><span class="h3 svelte-tog83g">Slides</span>
-                <div><span class="bold">Lecture 2:</span>
+                <div><span class="bold">Lecture 1:</span>
                             <a target="_blank" href="https://drive.google.com/file/d/1iksnCIPFn8ZrMyWi4ZRDOardhuNMpSfZ/view">Here</a>
-                        </div><div><span class="bold">Lecture 3:</span>
+                        </div><div><span class="bold">Lecture 2:</span>
                             <a target="_blank" href="https://drive.google.com/file/d/1asd7oB4ACNeMX467ubiTuw54X8YhUPvh/view">Here</a>
                         </div></article>
         </section><section class="svelte-tog83g"><h2 class="toc-h2">Week 2</h2>
+            <article>Qubits and their states, and working with them using quantum gates</article>
+            <article><span class="h3 svelte-tog83g">Slides</span>
+                <div><span class="bold">Lecture 1:</span>
+                            <a target="_blank" href="https://drive.google.com/file/d/1WIDFUleCptI8VGMa4LMXlU5wL6x5oTbh/view">Here</a>
+                        </div><div><span class="bold">Lecture 2:</span>
+                            <a target="_blank" href="https://drive.google.com/file/d/13r3aN91tSg8xNmVyqtr_Tq_QqfBPUXAt/view">Here</a>
+                        </div></article>
+        </section><section class="svelte-tog83g"><h2 class="toc-h2">Week 3</h2>
             <article>Qubits and their states, and working with them using quantum gates</article>
             <article><span class="h3 svelte-tog83g">Slides</span>
                 <div><span class="bold">Lecture 1:</span>

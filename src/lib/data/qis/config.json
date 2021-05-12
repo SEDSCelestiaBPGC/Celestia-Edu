@@ -29,7 +29,6 @@
         {
             "desc": "We will introduce the course with not much heavy material, just enough to give students an estimate of what is coming and what the course would prepare them for",
             "slides": [
-                "",
                 "https://drive.google.com/file/d/1iksnCIPFn8ZrMyWi4ZRDOardhuNMpSfZ/view",
                 "https://drive.google.com/file/d/1asd7oB4ACNeMX467ubiTuw54X8YhUPvh/view"
             ]
@@ -38,8 +37,14 @@
             "desc": "Qubits and their states, and working with them using quantum gates",
             "slides": [
                 "https://drive.google.com/file/d/1WIDFUleCptI8VGMa4LMXlU5wL6x5oTbh/view",
-                "https://drive.google.com/file/d/13r3aN91tSg8xNmVyqtr_Tq_QqfBPUXAt/view",
-                ""
+                "https://drive.google.com/file/d/13r3aN91tSg8xNmVyqtr_Tq_QqfBPUXAt/view"
+            ]
+        },
+        {
+            "desc": "Qubits and their states, and working with them using quantum gates",
+            "slides": [
+                "https://drive.google.com/file/d/1WIDFUleCptI8VGMa4LMXlU5wL6x5oTbh/view",
+                "https://drive.google.com/file/d/13r3aN91tSg8xNmVyqtr_Tq_QqfBPUXAt/view"
             ]
         }
     ]

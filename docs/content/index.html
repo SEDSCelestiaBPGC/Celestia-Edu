@@ -10,33 +10,40 @@
 	<link rel="stylesheet" href="/global.css">
 	
 
+		
 
-
-<link rel="modulepreload" href="/./_app/start-f5a87a9f.js">
-			<link rel="modulepreload" href="/./_app/chunks/index-4575880b.js">
-			<link rel="modulepreload" href="/./_app/pages/content/index.svelte-6dfa4a98.js">
-			<link rel="modulepreload" href="/./_app/chunks/nav-701373c5.js">
-			<link rel="stylesheet" href="/./_app/assets/start-a8cd1609.css">
-			<link rel="stylesheet" href="/./_app/assets/pages/content/index.svelte-e74a907d.css">
-			<link rel="stylesheet" href="/./_app/assets/nav-f328ed8e.css">
-
+		<link rel="modulepreload" href="/./_app/start-ff63cc36.js">
+		<link rel="modulepreload" href="/./_app/chunks/vendor-7cade0e7.js">
+		<link rel="modulepreload" href="/./_app/layout.svelte-40935a18.js">
+		<link rel="modulepreload" href="/./_app/pages/content/index.svelte-9c32b33d.js">
+		<link rel="modulepreload" href="/./_app/chunks/nav-d964a813.js">
+		<link rel="stylesheet" href="/./_app/assets/start-a8cd1609.css">
+		<link rel="stylesheet" href="/./_app/assets/pages/content/index.svelte-e74a907d.css">
+		<link rel="stylesheet" href="/./_app/assets/nav-f328ed8e.css">
 
 		<script type="module">
-			import { start } from "/./_app/start-f5a87a9f.js";
+			import { start } from "/./_app/start-ff63cc36.js";
 			start({
 				target: document.querySelector("body"),
 				paths: {"base":"","assets":"/."},
-				status: 200,
-				error: null,
-				session: void 0,
-				nodes: [
-					import("/./_app/pages/content/index.svelte-6dfa4a98.js")
-				],
-				page: {
-					host: location.host,
-					path: "/content",
-					query: new URLSearchParams(""),
-					params: {}
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/./_app/layout.svelte-40935a18.js"),
+						import("/./_app/pages/content/index.svelte-9c32b33d.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "/content",
+						query: new URLSearchParams(""),
+						params: {}
+					}
 				}
 			});
 		</script>
