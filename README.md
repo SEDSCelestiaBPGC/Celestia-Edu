@@ -23,3 +23,4 @@ $ heroku container:release web -a educelestia
 - Transition from current to Atomic CSS system
 - Standardise section styles for within courses
 - Add youtube links to home page
+- Add a build script such that meta is autoupdated

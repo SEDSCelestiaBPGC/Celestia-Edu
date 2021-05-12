@@ -22,8 +22,8 @@
 </style>
 
 <section>
-  <article>Last Updated 13th May (1.2.0)</article>
-  <article>Checkpoint: 03:05 AM IST</article>
+  <article>Last Updated 13th May (1.3.0)</article>
+  <article>Checkpoint: 03:52 AM IST</article>
   <article>
     <svg viewBox="0 0 32 32" width="24" height="24">
       <circle cx="16" cy="16" r="14" />
@@ -35,6 +35,7 @@
   </article>
   <article>
     <h5>Latest Changes:</h5>
-    Added Standardised Slides System<br /> Updated QIS Content
+    Added Standardised Slides System<br /> Updated QIS Content <br /> Stable gh-pages
+    deploy
   </article>
 </section>
