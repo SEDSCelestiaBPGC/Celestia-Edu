@@ -1,0 +1,11 @@
+{
+    "name": "SEDS Celestia Edu",
+    "author": "Plutoniumm",
+    "owner": "SEDSCelestiaBPGC",
+    "build": {
+        "current": 1,
+        "previous": 0,
+        "version": "1.3.0"
+    },
+    "time": 1627484897771
+}

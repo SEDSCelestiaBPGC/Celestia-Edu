@@ -1,16 +1,8 @@
 <script>
   import config from "$lib/data/tor/config.json";
-  import FAQ from "$lib/shared/faq.svelte";
-  import InfoBox from "$lib/shared/infobox.svelte";
-  import Document from "$lib/components/document.svelte";
-  import Slides from "$lib/shared/slides.svelte";
+  import { FAQ, InfoBox, Slides } from "$lib/shared";
+  import { Document } from "$lib/components";
 </script>
-
-<style type="text/scss">
-  section {
-    padding: 10px;
-  }
-</style>
 
 <div>
   <section>
@@ -23,3 +15,9 @@
   </section>
   <Slides {config} />
 </div>
+
+<style type="text/scss">
+  section {
+    padding: 10px;
+  }
+</style>

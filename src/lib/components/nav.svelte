@@ -2,6 +2,15 @@
   import { base } from "$app/paths";
 </script>
 
+<nav>
+  <div class="part">
+    <a href="{base}/">Home</a>
+    <a href="{base}/news">News</a>
+    <a href="{base}/content">Resources</a>
+    <a target="_blank" href="http://sedscelestia.org">Celestia</a>
+  </div>
+</nav>
+
 <style type="text/scss">
   nav {
     background: #fff;
@@ -28,11 +37,3 @@
     }
   }
 </style>
-
-<nav>
-  <div class="part">
-    <a href="{base}/">Home</a>
-    <a href="{base}/content">Resources</a>
-    <a target="_blank" href="http://sedscelestia.org">Celestia</a>
-  </div>
-</nav>
