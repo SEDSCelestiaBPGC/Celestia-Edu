@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background: #eee;
@@ -7,39 +7,43 @@ body{
     box-sizing: border-box;
 }
 
-a,a:visited,a:hover {
+a,
+a:visited,
+a:hover {
     text-decoration: none;
     color: #80f;
 }
 
-button,input{
+button,
+input {
     border: 0;
     outline: none;
-    
+
 }
 
-svg{
+svg {
     stroke-linecap: round;
     stroke-linejoin: round;
 }
 
-article, details{
+article,
+details {
     margin: 10px;
     padding: 10px;
     background: #fff;
 }
 
-.bold{
+.bold {
     font-weight: 600;
 }
 
-.toc-h2{
+.toc-h2 {
     font-size: 1.2rem;
     font-weight: 600;
 }
 
-@media (max-width:768px){
-    article{
+@media (max-width:768px) {
+    article {
         width: 100% !important;
     }
 }
