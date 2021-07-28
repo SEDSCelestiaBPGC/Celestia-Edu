@@ -1,16 +1,18 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@beyonk/svelte-carousel': ^2.8.0
+  '@glidejs/glide': ^3.4.1
   '@sveltejs/adapter-static': next
   '@sveltejs/kit': next
   sass: 1.26.8
+  siema: ^1.5.1
   svelte: 3.35.0
   svelte-preprocess: 4.6.1
   vite: ^2.1.0
 
 dependencies:
-  '@beyonk/svelte-carousel': 2.8.0
+  '@glidejs/glide': 3.4.1
+  siema: 1.5.1
 
 devDependencies:
   '@sveltejs/adapter-static': 1.0.0-next.13
@@ -22,10 +24,8 @@ devDependencies:
 
 packages:
 
-  /@beyonk/svelte-carousel/2.8.0:
-    resolution: {integrity: sha512-kWObh9XqI7tfzltySmTZ0/ULE5MjLqd0jhsGhr+GnVfIkCOGwTHwQxzheLjC1dkBk0Z4wucLxBwUeSxqtGF9Ww==}
-    dependencies:
-      siema: 1.5.1
+  /@glidejs/glide/3.4.1:
+    resolution: {integrity: sha512-C34AEcK1HjSyxilRToUL54I6KAoodojUbeRlXoruobZuG0eGm8xfDL+3kgkWj7AJK4EZtunSOYfoqMp70eDtwg==}
     dev: false
 
   /@rollup/pluginutils/4.1.1:

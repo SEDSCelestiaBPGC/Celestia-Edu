@@ -1,26 +1,12 @@
 <script>
   import { base } from "$app/paths";
-  // import Carousel from "@beyonk/svelte-carousel";
   import crs from "$lib/data/courses.json";
+  import HomeSlider from "$lib/mono/HomeSider.svelte";
 </script>
 
 <section>
-  <!-- <Carousel>
-    <div class="slide-content">
-      <img src="https://placekitten.com/400" alt="Kitten 1" />
-    </div>
-    <div class="slide-content">
-      <img src="https://placekitten.com/401" alt="Kitten 1" />
-    </div>
-    <div class="slide-content">
-      <img src="https://placekitten.com/402" alt="Kitten 1" />
-    </div>
-    <div class="slide-content">
-      <img src="https://placekitten.com/403" alt="Kitten 1" />
-    </div>
-  </Carousel> -->
-</section>
-<section>
+  <HomeSlider />
+
   {#each crs as cr}
     <a href="{base}/courses/{cr.page}" style="color: unset;">
       <div class="course">
@@ -36,19 +22,17 @@
 </section>
 
 <style type="text/scss">
-  .slide-content {
-    width: 30%;
-  }
-  section {
+  section:not(:first-of-type) {
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    overflow: scroll;
   }
   .course {
     display: flex;
     margin: 10px;
-    width: 550px;
+    width: calc(50% - 20px);
     height: 200px;
     background: #fff;
     border: 1px solid #aaa;
@@ -65,6 +49,11 @@
     transition: transform 0.2s ease;
     &:hover {
       transform: scale(1.03);
+    }
+  }
+  @media (max-width: 768px) {
+    .course {
+      width: calc(100% - 20px);
     }
   }
 </style>

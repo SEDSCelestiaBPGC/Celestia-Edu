@@ -3,7 +3,7 @@
 	"version": "1.4.0",
 	"scripts": {
 		"dev": "svelte-kit dev",
-		"build": "rm -rf build && svelte-kit build",
+		"build": "node prep && rm -rf build && svelte-kit build",
 		"deploy": "npm run build && touch build/.nojekyll && npx gh-pages -d build -t true"
 	},
 	"devDependencies": {
@@ -16,6 +16,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@beyonk/svelte-carousel": "^2.8.0"
+		"@glidejs/glide": "^3.4.1",
+		"siema": "^1.5.1"
 	}
 }
