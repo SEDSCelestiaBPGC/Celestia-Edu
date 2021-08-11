@@ -5,7 +5,7 @@
         "page": "qis",
         "long": "Quantum Information & Security (Kit)",
         "image": "https://bpgc-cte.s3.ap-south-1.amazonaws.com/coverImage-qis3-1610508686415.png",
-        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus harum explicabo perferendis consectetur dolor repellat inventore quibusdam sint quo. Temporibus."
+        "about": "An introductory course to quantum information & its security, with emphasis on the basics of quantum computing and Qiskit, and its applications in information security."
     },
     {
         "short": "TOR",
@@ -13,6 +13,6 @@
         "page": "tor",
         "long": "Introduction to Theory of Relativity",
         "image": "https://bpgc-cte.s3.ap-south-1.amazonaws.com/coverImage-tor3-1610508935146.png",
-        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus harum explicabo perferendis consectetur dolor repellat inventore quibusdam sint quo. Temporibus."
+        "about": "Beginning with famous thought experiments and a few intuitive principles from Newtonian mechanics, this course closely follows Einstein's arguments leading to the epiphany that time and space are a single entity, spacetime, where physical processes unfold. We’ll leave you with a basic mathematical understanding of how general relativity works so that you can carry on in the journey!!!"
     }
 ]
