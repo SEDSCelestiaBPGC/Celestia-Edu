@@ -5,23 +5,26 @@
     import { ExtFrame } from "$lib/components";
     import { onMount } from "svelte";
 
-    const youtube_list = [
-        "C2UhD6GZGBo",
-        "8pmJyrQEvu4",
-        "V1aJctvROJc",
-        "8pmJyrQEvu4",
-    ];
-    const youtube_options = {
-        allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
-        class: "glide__slide",
-        frameborder: "0",
-    };
-    const youtube_config =
-        "?controls=1&modestbranding=1&showinfo=0&iv_load_policy=3&html5=1&rel=0&hl=en&cc_lang_pref=en";
+    let glider_dom;
+
+    const //
+        youtube_list = [
+            "C2UhD6GZGBo",
+            "8pmJyrQEvu4",
+            "V1aJctvROJc",
+            "8pmJyrQEvu4",
+        ],
+        youtube_options = {
+            allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+            class: "glide__slide",
+            frameborder: "0",
+        },
+        youtube_config =
+            "?controls=1&modestbranding=1&showinfo=0&iv_load_policy=3&html5=1&rel=0&hl=en&cc_lang_pref=en";
 
     onMount(() => {
         const width = window.innerWidth;
-        new Glide(".glide", {
+        let glider = new Glide(".glide", {
             type: "slider",
             gap: 75,
             animationDuration: 400,
@@ -40,11 +43,17 @@
                 before: width / 10,
                 after: width / 10,
             },
-        }).mount();
+        });
+
+        glider.on(["mount.after"], function () {
+            glider_dom.style.opacity = 1;
+        });
+
+        glider.mount();
     });
 </script>
 
-<div class="glide">
+<div class="glide" bind:this={glider_dom}>
     <div class="glide__arrows" data-glide-el="controls">
         <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
             &larr;
@@ -79,5 +88,9 @@
         height: calc(50vw * 3 / 5);
         border-radius: 1em;
         overflow: hidden;
+    }
+    .glide {
+        opacity: 0;
+        transition: opacity 0.2s ease;
     }
 </style>

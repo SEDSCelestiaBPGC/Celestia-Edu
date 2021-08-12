@@ -5,14 +5,12 @@ specifiers:
   '@sveltejs/adapter-static': next
   '@sveltejs/kit': next
   sass: 1.26.8
-  siema: ^1.5.1
   svelte: 3.35.0
   svelte-preprocess: 4.6.1
   vite: ^2.1.0
 
 dependencies:
   '@glidejs/glide': 3.4.1
-  siema: 1.5.1
 
 devDependencies:
   '@sveltejs/adapter-static': 1.0.0-next.13
@@ -355,10 +353,6 @@ packages:
     dependencies:
       chokidar: 3.5.1
     dev: true
-
-  /siema/1.5.1:
-    resolution: {integrity: sha1-7/MSt36DQPpNgdXQU+u+uRE/+Ig=}
-    dev: false
 
   /source-map-js/0.6.2:
     resolution: {integrity: sha512-/3GptzWzu0+0MBQFrDKzw/DvvMTUORvgY6k6jd/VS6iCR4RDTKWH6v6WPwQoUO8667uQEf9Oe38DxAYWY5F/Ug==}

@@ -16,7 +16,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@glidejs/glide": "^3.4.1",
-		"siema": "^1.5.1"
+		"@glidejs/glide": "^3.4.1"
 	}
 }

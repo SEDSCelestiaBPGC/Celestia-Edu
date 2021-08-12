@@ -6,7 +6,8 @@
 
 <section>
   <HomeSlider />
-
+</section>
+<section>
   {#each crs as cr}
     <a href="{base}/courses/{cr.page}" style="color: unset;">
       <div class="course">
@@ -29,11 +30,13 @@
     justify-content: space-around;
     overflow: scroll;
   }
+  a {
+    width: calc(50% - 20px);
+  }
   .course {
     display: flex;
-    margin: 10px;
-    width: calc(50% - 20px);
-    height: 200px;
+    width: 100%;
+    height: auto;
     background: #fff;
     border: 1px solid #aaa;
     div,
@@ -52,7 +55,7 @@
     }
   }
   @media (max-width: 768px) {
-    .course {
+    a {
       width: calc(100% - 20px);
     }
   }

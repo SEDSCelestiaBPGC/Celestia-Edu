@@ -6,4 +6,13 @@
 
 <slot />
 
+<div class="clearfix">&nbsp;<br /></div>
 <Footer />
+
+<style>
+    .clearfix {
+        display: block;
+        margin: 20px;
+        padding: 20px;
+    }
+</style>
